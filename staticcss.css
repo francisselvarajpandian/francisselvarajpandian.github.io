@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+}
+footer{
+    background-color: grey;
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+}
+footer > a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+nav{
+    background-color: grey;
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+}
+nav > a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+nav > a:hover{
+    color: burlywood;
+}
+.profile{
+    display: flex;
+    position: relative;
+    margin-left:160px ;
+    margin-top: 60px;
+    left: 250px;
+    
+}
+.propic{
+    border-radius: 130px;
+}
+.name{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
